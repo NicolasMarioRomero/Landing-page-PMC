@@ -12,13 +12,13 @@ dist
 dist-ssr
 *.local
 
+# Variables de entorno (mantenemos solo .env.example en git)
+.env
+.env.*
+!.env.example
+
+# MVP clonado (repo separado)
+MVP/
+MVP
+
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
