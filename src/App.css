@@ -576,25 +576,25 @@
 .fk-mvp__frame {
   background: var(--fk-green-deep);
   border-radius: var(--fk-radius-xl);
-  padding: 16px;
+  padding: 14px;
   box-shadow: var(--fk-shadow-xl);
-  aspect-ratio: 9 / 16;
-  max-width: 380px;
+  width: 100%;
+  max-width: 360px;
+  height: 640px;
   margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
 .fk-mvp__screen {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  inset: 14px;
   background: var(--fk-cream);
   border-radius: var(--fk-radius-lg);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
 }
 .fk-mvp__cover {
-  flex: 1;
+  position: absolute;
+  inset: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -615,10 +615,13 @@
 }
 .fk-mvp__cover small { color: var(--fk-text-soft); font-size: 12px; }
 .fk-mvp__iframe {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   border: 0;
   display: block;
+  background: var(--fk-cream);
 }
 
 /* ============== Traction ============== */
@@ -904,5 +907,4 @@
   .fk-container { padding: 0 20px; }
   .fk-hero__stats { grid-template-columns: 1fr; gap: 16px; }
   .fk-traction__numbers { grid-template-columns: 1fr; }
-  .fk-hero__ctas .fk-btn { width: 100%; justify-content: center; }
-}
+  .fk-hero
