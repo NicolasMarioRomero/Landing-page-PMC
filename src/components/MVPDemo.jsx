@@ -52,13 +52,6 @@ export default function MVPDemo() {
             >
               Abrir en pantalla completa ↗
             </a>
-            <div className="fk-mvp__note">
-              <strong>MVP en producción:</strong>{' '}
-              <a href="https://pmc-dusky.vercel.app/" target="_blank" rel="noreferrer">
-                pmc-dusky.vercel.app
-              </a>
-              . Puedes override con <code>VITE_MVP_URL</code> en <code>.env</code>.
-            </div>
           </div>
           <div className="fk-mvp__frame">
             <div className="fk-mvp__screen">
