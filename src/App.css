@@ -719,7 +719,7 @@
   background: var(--fk-green-deep);
   color: var(--fk-cream);
   border-color: var(--fk-green-deep);
-  transform: translateY(-12px);
+  transform: scale(1.06);
   box-shadow: var(--fk-shadow-xl);
 }
 .fk-plan--featured h3,
@@ -907,4 +907,6 @@
   .fk-container { padding: 0 20px; }
   .fk-hero__stats { grid-template-columns: 1fr; gap: 16px; }
   .fk-traction__numbers { grid-template-columns: 1fr; }
-  .fk-hero
+  .fk-hero__ctas .fk-btn { width: 100%; justify-content: center; }
+  .fk-mvp__frame { max-width: 320px; height: 570px; }
+}

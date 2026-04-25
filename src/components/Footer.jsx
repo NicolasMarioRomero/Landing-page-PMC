@@ -8,12 +8,12 @@ export default function Footer() {
           <Logo size={36} />
           <div>
             <strong>FreshKeeper</strong>
-            <p>Gestión inteligente de alimentos. Validado con 73 hogares en Bogotá y Medellín.</p>
+            <p>Gestión inteligente de alimentos. Validado con 73 hogares en Bogotá.</p>
           </div>
         </div>
         <div className="fk-footer__meta">
           <p>ISIS-2007 · Diseño de Productos e Innovación en TI</p>
-          <p>Universidad de los Andes · Colombia · 2025</p>
+          <p>Universidad de los Andes · Colombia · 2026</p>
           <p>Grupo 3</p>
         </div>
       </div>
